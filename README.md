@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hanhan1978/RestApiExtention.svg)](https://travis-ci.org/hanhan1978/RestApiExtention)
+
 RestApiExtension
 =========
 is an extension for REST API testting with Behat
