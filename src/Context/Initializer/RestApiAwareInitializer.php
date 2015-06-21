@@ -6,11 +6,7 @@ use Behat\Behat\Context\Initializer\ContextInitializer;
 use GuzzleHttp\ClientInterface;
 
 /**
- * Guzzle-aware contexts initializer.
  *
- * Sets Guzzle client instance to the ApiClientAwareContext.
- *
- * @author Frédéric G. Marand <fgm@osinet.fr>
  */
 class RestApiAwareInitializer implements ContextInitializer
 {
