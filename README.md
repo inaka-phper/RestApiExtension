@@ -11,7 +11,7 @@ is an extension for REST API testting with Behat
 
 ```
     "require": {
-        "hanhan1978/RestApiExtention": "*"
+        "hanhan1978/restapi-extention": "1.0.0"
     },
 ```
 
@@ -27,4 +27,4 @@ default:
             contexts:
               - 'Behat\RestApiExtension\Context\RestApiContext'
 ```
-change base_url to your own.
+=> change base_url to your own.
