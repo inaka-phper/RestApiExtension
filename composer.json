@@ -3,7 +3,7 @@
     "type": "behat-extention",
     "description": "Restful API Test extention for behat",
     "keywords": ["rest", "api", "test"],
-    "homepage": "https://github.com/hanhan1978/RestApiExtention",
+    "homepage": "https://github.com/hanhan1978/RestApiExtension",
     "license": "MIT",
     "authors": [
       {
@@ -20,7 +20,10 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Behat\\RestApiTestExtension\\" : "src/"
+            "Behat\\RestApiExtension\\" : "src/"
         }
+    },
+    "config": {
+        "bin-dir": "bin/"
     }
 }

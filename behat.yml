@@ -1,0 +1,12 @@
+default:
+    extensions:
+        Behat\RestApiExtension: 
+            base_url: http://127.0.0.1:3000/
+    suites:
+        default:
+            contexts:
+              - 'Behat\RestApiExtension\Context\RestApiContext'
+
+paths:
+    features: features
+    bootstrap: %behat.paths.features%/bootstrap
