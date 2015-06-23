@@ -1,7 +1,7 @@
 {
-    "name": "hanhan1978/restapi-extention",
+    "name": "hanhan1978/restapi-extension",
     "type": "behat-extention",
-    "description": "Restful API Test extention for behat",
+    "description": "Restful API Test extension for behat",
     "keywords": ["rest", "api", "test"],
     "homepage": "https://github.com/hanhan1978/RestApiExtension",
     "license": "MIT",
