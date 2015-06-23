@@ -1,6 +1,6 @@
 {
     "name": "hanhan1978/restapi-extension",
-    "type": "behat-extention",
+    "type": "behat-extension",
     "description": "Restful API Test extension for behat",
     "keywords": ["rest", "api", "test"],
     "homepage": "https://github.com/hanhan1978/RestApiExtension",

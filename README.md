@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/hanhan1978/RestApiExtention.svg)](https://travis-ci.org/hanhan1978/RestApiExtention)
+[![Build Status](https://travis-ci.org/hanhan1978/RestApiExtension.svg?branch=master)](https://travis-ci.org/hanhan1978/RestApiExtension)
 
 RestApiExtension
 =========
@@ -11,7 +11,7 @@ is an extension for REST API testting with Behat
 
 ```
     "require": {
-        "hanhan1978/restapi-extention": "1.0.0"
+        "hanhan1978/restapi-extension": "1.0.*"
     },
 ```
 
