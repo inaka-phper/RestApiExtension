@@ -4,6 +4,7 @@ namespace Behat\RestApiExtension\Context\Initializer;
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\Initializer\ContextInitializer;
 use GuzzleHttp\ClientInterface;
+use Behat\RestApiExtension\Context\RestApiContext;
 
 /**
  *
@@ -28,6 +29,8 @@ class RestApiAwareInitializer implements ContextInitializer
      */
     public function initializeContext(Context $context)
     {
-            $context->setParameters($this->parameters);
+            if ($context instanceof RestApiContext) {
+                $context->setParameters($this->parameters);
+            }
     }
 }
