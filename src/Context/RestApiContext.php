@@ -95,8 +95,7 @@ class RestApiContext implements Context, SnippetAcceptingContext
     {
         $ar1 = json_decode($arg1, true);
         $ar2 = json_decode($this->_responseBody, true);
-        $diff = array_diff($ar1, $ar2);
-        if(count($diff) > 0 ){
+        if($ar1 != $ar2){
             throw new \Exception("Expected => $arg1, \n Actual => $this->_responseBody");
         }
     }
